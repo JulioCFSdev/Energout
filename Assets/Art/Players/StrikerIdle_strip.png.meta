@@ -117,169 +117,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_0
+      name: StrikerIdle_strip_0
       rect:
         serializedVersion: 2
         x: 18
         y: 28
         width: 39
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 33
+      alignment: 9
+      pivot: {x: 0.7249882, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e65068f4065cc44faf87e01290c3329
-      internalID: 1968059386
+      spriteID: b7efd3bc478027b48b296839b989b818
+      internalID: 1434080272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_1
+      name: StrikerIdle_strip_1
       rect:
         serializedVersion: 2
         x: 114
         y: 28
         width: 39
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 34
+      alignment: 9
+      pivot: {x: 0.72677064, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0c1a5e30d7845d4d91c6786a376fcb9
-      internalID: -967741854
+      spriteID: 671291dde8a7a754094adfb78103e72e
+      internalID: 449429432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_2
+      name: StrikerIdle_strip_2
       rect:
         serializedVersion: 2
         x: 210
         y: 28
         width: 39
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.720779, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3fa3d19308d7c04584308c63d2d4037
-      internalID: -1374400697
+      spriteID: 8d5be7251ad464042ac2879d6a1911b3
+      internalID: -1145386147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_3
+      name: StrikerIdle_strip_3
       rect:
         serializedVersion: 2
         x: 306
         y: 28
         width: 39
         height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.74474627, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32fb6859ff3048d41a5318f3b8f99f8b
-      internalID: 594795438
+      spriteID: 74ca0ca5d498abd4080bb261ecd1c556
+      internalID: -1078380152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_4
+      name: StrikerIdle_strip_4
       rect:
         serializedVersion: 2
         x: 402
         y: 28
         width: 39
         height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7351599, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f4e3879b04f6504e9ccb202fbd5b209
-      internalID: -852943691
+      spriteID: be428b64bdf0bad4597a3aa85ccf7d20
+      internalID: -620603464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_5
+      name: StrikerIdle_strip_5
       rect:
         serializedVersion: 2
         x: 498
         y: 28
         width: 39
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7339618, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fed9796f0276604eb28f1e17080eb12
-      internalID: 816000052
+      spriteID: a1a28fe0f4dc4034196104a3512f4591
+      internalID: -1653109667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_6
+      name: StrikerIdle_strip_6
       rect:
         serializedVersion: 2
         x: 594
         y: 28
         width: 39
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 34
+      alignment: 9
+      pivot: {x: 0.72677064, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f132753badd5c14ebca526247f66848
-      internalID: 631956052
+      spriteID: 531d6a33e6d7e5249b27ccfea258bf64
+      internalID: 69675208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_StrikerIdle_strip_7
+      name: StrikerIdle_strip_7
       rect:
         serializedVersion: 2
         x: 690
         y: 28
         width: 39
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 35
+      alignment: 9
+      pivot: {x: 0.72796947, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8418d577976a9de4092665eea9d44a46
-      internalID: -705809613
+      spriteID: 46a6ac8d24d3a8d4b9ebe9225be21b17
+      internalID: 1206869556
       vertices: []
       indices: 
       edges: []
@@ -295,14 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_StrikerIdle_strip_7: -705809613
-      spr_StrikerIdle_strip_3: 594795438
-      spr_StrikerIdle_strip_1: -967741854
-      spr_StrikerIdle_strip_5: 816000052
-      spr_StrikerIdle_strip_0: 1968059386
-      spr_StrikerIdle_strip_6: 631956052
-      spr_StrikerIdle_strip_4: -852943691
-      spr_StrikerIdle_strip_2: -1374400697
+      StrikerIdle_strip_6: 69675208
+      StrikerIdle_strip_3: -1078380152
+      StrikerIdle_strip_1: 449429432
+      StrikerIdle_strip_2: -1145386147
+      StrikerIdle_strip_7: 1206869556
+      StrikerIdle_strip_4: -620603464
+      StrikerIdle_strip_5: -1653109667
+      StrikerIdle_strip_0: 1434080272
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -12,8 +12,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
     private Animator _anim;
     private SpriteRenderer _spRend;
-    private Transform CollisorR;
-    private Transform CollisorL;
 
     void Start()
     {
@@ -67,19 +65,19 @@ public class PlayerMovement : MonoBehaviour
 
     public void Flip(Vector2 direction)
     {
-        CollisorR = transform.Find("ColliderRight");
-        CollisorL = transform.Find("ColliderLeft");
+        //CollisorR = transform.Find("ColliderRight");
+        //CollisorL = transform.Find("ColliderLeft");
         if (direction.x > 0 && _spRend.flipX)
         {
             _spRend.flipX = false;
-            CollisorR.gameObject.SetActive(true);
-            CollisorL.gameObject.SetActive(false);
+            //CollisorR.gameObject.SetActive(true);
+            //CollisorL.gameObject.SetActive(false);
         }
         
         if (direction.x < 0 && !_spRend.flipX)
         {
-            CollisorR.gameObject.SetActive(false);
-            CollisorL.gameObject.SetActive(true);
+            //CollisorR.gameObject.SetActive(false);
+            //CollisorL.gameObject.SetActive(true);
             _spRend.flipX = true;
         }
     }

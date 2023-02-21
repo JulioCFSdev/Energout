@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +115,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 28
+        width: 41
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42776269be9e0fe44af65c9a5e4e5d3b
+      internalID: -754126258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 28
+        width: 41
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e94c7164be2f444388d186e0855f30c
+      internalID: 273650880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 28
+        width: 64
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520670d8adcfae44d8ff6c9c689d4b6b
+      internalID: 2095124556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 28
+        width: 45
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9377b6fd7b6f1b347a530d6f90809989
+      internalID: 1989808928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 28
+        width: 56
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6a67c27e8066440bda20f0faea14f1
+      internalID: 2036855244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 28
+        width: 43
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc874263bdb55ec4d989498ca0a9db78
+      internalID: 802394959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 28
+        width: 47
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee27b41e45943a439a58012faab3b0b
+      internalID: 75517930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_7
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 28
+        width: 41
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ada0fe72bc33a344ba80e5388f09deb
+      internalID: 1424777508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_8
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 28
+        width: 41
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e2c4075ef66c14091a2523e5531be0
+      internalID: -1790476414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerSlash_stripNoEffect_9
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 29
+        width: 41
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fe275779ab9be43a96d5c1c9925e81
+      internalID: -663661288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +336,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StrikerSlash_stripNoEffect_6: 75517930
+      StrikerSlash_stripNoEffect_3: 1989808928
+      StrikerSlash_stripNoEffect_4: 2036855244
+      StrikerSlash_stripNoEffect_2: 2095124556
+      StrikerSlash_stripNoEffect_0: -754126258
+      StrikerSlash_stripNoEffect_1: 273650880
+      StrikerSlash_stripNoEffect_5: 802394959
+      StrikerSlash_stripNoEffect_9: -663661288
+      StrikerSlash_stripNoEffect_8: -1790476414
+      StrikerSlash_stripNoEffect_7: 1424777508
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
