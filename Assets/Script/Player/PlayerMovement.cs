@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private PlayerAttack _playerAttack;
     [SerializeField] public float moveSpeed = 5f;
     private float _horizontalInput;
     private float _verticalInput;
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         Movement();
+            
     }
 
     public void Movement()
@@ -35,11 +37,14 @@ public class PlayerMovement : MonoBehaviour
         _movementDirection = new Vector2(_horizontalInput, _verticalInput).normalized;
 
         IsRunning(_movementDirection);
-        // Calcular a nova posição do player
-        Vector2 newPosition = _rb.position + _movementDirection * moveSpeed * Time.deltaTime;
+        if (_playerAttack.isComboFinish)
+        {
+            // Calcular a nova posição do player
+            Vector2 newPosition = _rb.position + _movementDirection * moveSpeed * Time.deltaTime;
 
-        // Mover o player usando MovePosition
-        _rb.MovePosition(newPosition);
+            // Mover o player usando MovePosition
+            _rb.MovePosition(newPosition);    
+        }
     }
 
     public void IsRunning(Vector2 direction)

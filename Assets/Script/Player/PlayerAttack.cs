@@ -7,18 +7,27 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] public int combo = 0;
+    [SerializeField] public float timeAttack;
+    [SerializeField] public int countAttack;
     private Animator _ani;
     public bool isAttacking;
+    public bool isComboFinish = true;
+    public bool readyAttack = true;
 
     private void Start()
     {
         _ani = GetComponent<Animator>();
     }
-
+    
+    private void Update()
+    {
+        Combos();
+    }
+    
     public void StartCombo()
     {
         isAttacking = false;
-        if (combo < 1)
+        if (combo < countAttack)
         {
             combo++;
         }
@@ -28,24 +37,29 @@ public class PlayerAttack : MonoBehaviour
     {
         print("Combo Finalizado");
         isAttacking = false;
+        isComboFinish = true;
         combo = 0;
+        StartCoroutine("CooldownAttack");
+    }
+
+    private IEnumerator CooldownAttack()
+    {
+        readyAttack = false;
+        print("readyAttack : " + readyAttack);
+        yield return new WaitForSeconds(timeAttack);
+        readyAttack = true;
+        print("readyAttack : " + readyAttack);
     }
 
     public void Combos()
     {
-        if (Input.GetKeyDown(KeyCode.E) && !isAttacking)
+        if (Input.GetKeyDown(KeyCode.E) && !isAttacking && readyAttack)
         {
             print("FOI APERTADO O E e ENTREOU NA CONDIÇÃO");
             isAttacking = true;
+            isComboFinish = false;
             _ani.SetTrigger("Attack"+combo);
             print("Attack"+combo);
         }
-    }
-    
-    
-
-    private void Update()
-    {
-        Combos();
     }
 }
