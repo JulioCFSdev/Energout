@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    [SerializeField] public int damage;
     [SerializeField] public int combo = 0;
     [SerializeField] public float timeAttack;
     [SerializeField] public int countAttack;
@@ -60,6 +61,15 @@ public class PlayerAttack : MonoBehaviour
             isComboFinish = false;
             _ani.SetTrigger("Attack"+combo);
             print("Attack"+combo);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            print("Triggerou o ataque");
+            other.gameObject.GetComponent<LifeSystem>().LifeDecrease(damage);
         }
     }
 }

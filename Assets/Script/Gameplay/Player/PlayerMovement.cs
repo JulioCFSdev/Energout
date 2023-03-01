@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Run")]
     [SerializeField] private PlayerAttack _playerAttack;
     [SerializeField] public float moveSpeed = 5f;
+
     private float _horizontalInput;
     private float _verticalInput;
     private Vector2 _movementDirection;
@@ -24,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         Movement();
-            
     }
 
     public void Movement()

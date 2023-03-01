@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +115,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: StrikerDeath_strip_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 28
+        width: 42
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6993176, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e447d4f8e77f16243b60e421f8d8957d
+      internalID: -568662640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 28
+        width: 41
+        height: 31
+      alignment: 9
+      pivot: {x: 0.690899, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb51751048a66642b259dcbe5ca83dc
+      internalID: -688788068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 28
+        width: 42
+        height: 28
+      alignment: 9
+      pivot: {x: 0.61505306, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f85f81f77c0c94f99c7d4c0fa498eb
+      internalID: -139133023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_4
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 28
+        width: 42
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6134324, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd968a54d612fe428bfa59092c3843b
+      internalID: -581041295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 28
+        width: 42
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6263958, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eede7d2d5a0340040bff5d3cc2b231fd
+      internalID: 552595287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 28
+        width: 42
+        height: 30
+      alignment: 9
+      pivot: {x: 0.61991376, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6bc676780c90f4fa106020d90f0192
+      internalID: 2124176394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 28
+        width: 43
+        height: 30
+      alignment: 9
+      pivot: {x: 0.64244896, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed70624c0f83a7c4582765bb43e031ec
+      internalID: 563171019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_10
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 28
+        width: 43
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6250383, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319fede3ed31af4abd8dd4f60380c84
+      internalID: -1555645608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_11
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 28
+        width: 43
+        height: 29
+      alignment: 9
+      pivot: {x: 0.63191545, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07736813df308df4b861c1603e9323f2
+      internalID: 314787737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_12
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 28
+        width: 43
+        height: 28
+      alignment: 9
+      pivot: {x: 0.6174373, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6e12c1510fcb348b5be57ad6916115
+      internalID: 1672671272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_13
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 28
+        width: 42
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5191229, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd30f0ad42c711e4d9256e90a9c5b63b
+      internalID: -1621627808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_14
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 28
+        width: 42
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc824fe936c6c44dab003d7a132227f
+      internalID: 1540842287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_15
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 28
+        width: 42
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9854fb0c4945143459f306b786ffffdf
+      internalID: 749594480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_16
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 28
+        width: 42
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b28b7d80687b4419bcaabee5e53202
+      internalID: -589261333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_17
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 28
+        width: 43
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec2802458a728d4aa57bae3f1c33200
+      internalID: 1677545052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StrikerDeath_strip_18
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 28
+        width: 43
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94caba0981d3a5b499c4f0987f3dc8cb
+      internalID: 713315047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +462,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StrikerDeath_strip_8: 2124176394
+      StrikerDeath_strip_11: 314787737
+      StrikerDeath_strip_12: 1672671272
+      StrikerDeath_strip_0: -568662640
+      StrikerDeath_strip_1: -688788068
+      StrikerDeath_strip_3: -1600738944
+      StrikerDeath_strip_15: 749594480
+      StrikerDeath_strip_17: 1677545052
+      StrikerDeath_strip_2: -139133023
+      StrikerDeath_strip_14: 1540842287
+      StrikerDeath_strip_16: -589261333
+      StrikerDeath_strip_7: 1409699158
+      StrikerDeath_strip_10: -1555645608
+      StrikerDeath_strip_6: 552595287
+      StrikerDeath_strip_18: 713315047
+      StrikerDeath_strip_13: -1621627808
+      StrikerDeath_strip_5: 1948924046
+      StrikerDeath_strip_4: -581041295
+      StrikerDeath_strip_9: 563171019
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
